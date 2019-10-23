@@ -8,18 +8,22 @@ export class UsersService {
   public users = [
     {
       name: 'Andres',
+      email: 'andres@hotmail.com',
       roles: ['admin', 'schedule', 'read']
     },
     {
       name: 'Jose',
+      email: 'jose@hotmail.com',
       roles: [ 'schedule', 'read']
     },
     {
       name: 'Juan',
+      email: 'juan@gmail.com',
       roles: [ 'read']
     },
     {
-      name: 'Juan',
+      name: 'Pedro',
+      email: 'pedro@gmail.com',
       roles: [ 'write']
     }
   ];
